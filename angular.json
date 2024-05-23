@@ -36,6 +36,7 @@
             ],
             "styles": [
               "src/styles.css"
+              
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -99,12 +100,19 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "56ab6c4c-029e-40b9-b470-d06946afaab3"
   }
 }
